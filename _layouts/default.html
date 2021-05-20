@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    <title>Karu</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="icon" href="https://i.imgur.com/NIuCEXu.png">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <style>
+.btn.sl
+{
+-webkit-animation: rainbow-text 7s infinite alternate;
+animation: rainbow-text 7s infinite alternate;
+}
+@keyframes rainbow-text {
+0% {
+color: #e87d7d;
+border-color: #e87d7d;
+}
+2% {
+color: #e88a7d;
+border-color: #e88a7d;
+}
+4% {
+color: #e8977d;
+border-color: #e8977d;
+}
+6% {
+color: #e8a47d;
+border-color: #e8a47d;
+}
+8% {
+color: #e8b07d;
+border-color: #e8b07d;
+}
+10% {
+color: #e8bd7d;
+border-color: #e8bd7d;
+}
+12% {
+color: #e8ca7d;
+border-color: #e8ca7d;
+}
+14% {
+color: #e8d77d;
+border-color: #e8d77d;
+}
+16% {
+color: #e8e47d;
+border-color: #e8e47d;
+}
+18% {
+color: #dfe87d;
+border-color: #dfe87d;
+}
+20% {
+color: #d3e87d;
+border-color: #d3e87d;
+}
+22% {
+color: #c6e87d;
+border-color: #c6e87d;
+}
+24% {
+color: #b9e87d;
+border-color: #b9e87d;
+}
+26% {
+color: #ace87d;
+border-color: #ace87d;
+}
+28% {
+color: #9fe87d;
+border-color: #9fe87d;
+}
+30% {
+color: #92e87d;
+border-color: #92e87d;
+}
+32% {
+color: #86e87d;
+border-color: #86e87d;
+}
+34% {
+color: #7de881;
+border-color: #7de881;
+}
+36% {
+color: #7de88e;
+border-color: #7de88e;
+}
+38% {
+color: #7de89b;
+border-color: #7de89b;
+}
+40% {
+color: #7de8a8;
+border-color: #7de8a8;
+}
+42% {
+color: #7de8b5;
+border-color: #7de8b5;
+}
+44% {
+color: #7de8c1;
+border-color: #7de8c1;
+}
+46% {
+color: #7de8ce;
+border-color: #7de8ce;
+}
+48% {
+color: #7de8db; 
+border-color: #7de8db;
+}
+50% {
+color: #7de8e8;
+border-color: #7de8e8;
+}
+52% {
+color: #7ddbe8;
+border-color: #7ddbe8;
+}
+54% {
+color: #7dcee8;
+border-color: #7dcee8;
+}
+56% {
+color: #7dc1e8;
+border-color: #7dc1e8;
+}
+58% {
+color: #7db5e8;
+border-color: #7db5e8;
+}
+60% {
+color: #7da8e8;
+border-color: #7da8e8;
+}
+62% {
+color: #7d9be8;
+border-color: #7d9be8;
+}
+64% {
+color: #7d8ee8;
+border-color: #7d8ee8;
+}
+66% {
+color: #7d81e8;
+border-color: #7d81e8;
+}
+68% {
+color: #867de8;
+border-color: #867de8;
+}
+70% {
+color: #927de8;
+border-color: #927de8;
+}
+72% {
+color: #9f7de8;
+border-color: #9f7de8;
+}
+74% {
+color: #ac7de8;
+border-color: #ac7de8;
+}
+76% {
+color: #b97de8;
+border-color: #b97de8;
+}
+78% {
+color: #c67de8;
+border-color: #c67de8;
+}
+80% {
+color: #d37de8;
+border-color: #d37de8;
+}
+82% {
+color: #df7de8;
+border-color: #df7de8;
+}
+84% {
+color: #e87de4;
+border-color: #e87de4;
+}
+86% {
+color: #e87dd7;
+border-color: #e87dd7;
+}
+88% {
+color: #e87dca;
+border-color: #e87dca;
+}
+90% {
+color: #e87dbd;
+border-color: #e87dbd;
+}
+92% {
+color: #e87db0;
+border-color: #e87db0;
+}
+94% {
+color: #e87da4;
+border-color: #e87da4;
+}
+96% {
+color: #e87d97;
+border-color: #e87d97;
+}
+98% {
+color: #e87d8a;
+border-color: #e87d8a;
+}
+100% {
+color: #e87d7d;
+border-color: #e87d7d;
+}
+}
+</style>
+  </head>
+  <body>
+
+    <header class="page-header" role="banner">
+      <h1 class="project-name">Karu</h1>
+      <h2 class="project-tagline">Entertainment, killing users and more!</h2>
+      {% if site.github.is_project_page %}
+        <a href="./" class="btn">Home</a>
+        <a href="./history.html" class="btn">History</a>
+        <a href="https://github.com/BulzyKrown/Karu/wiki" class="btn">Wiki</a>
+        <a href="https://discord.com/oauth2/authorize?client_id=413909677252935680&permissions=321600&redirect_uri=https%3A%2F%2Fdiscord.gg%2FSYYBU2F&response_type=code&scope=bot" class="btn">Invite</a>
+        <a href="https://discords.com/servers/karu" class="btn sl">Server List</a>
+      {% endif %}
+    </header>    
+    <div align="center">
+<img src="https://discordbots.org/api/widget/status/413909677252935680.svg?noavatar=true" alt="Karu">
+    
+<img src="https://discordbots.org/api/widget/servers/413909677252935680.svg?noavatar=true" alt="Karu">
+
+<img src="https://discordbots.org/api/widget/upvotes/413909677252935680.svg?noavatar=true" alt="Karu">
+</div>
+
+    <main id="content" class="main-content" role="main">
+      {{ content }}
+
+      <footer class="site-footer">
+        {% if site.github.is_project_page %}
+          <span class="site-footer-owner">Karu is maintained by <a href="{{ site.github.owner_url }}">BulzyKrown</a>.</span>
+        {% endif %}
+      </footer>
+    </main>
+
+    {% if site.google_analytics %}
+      <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', '{{ site.google_analytics }}', 'auto');
+        ga('send', 'pageview');
+      </script>
+    {% endif %}
+  </body>
+</html>
