@@ -11,4 +11,4 @@ The bot needs to collect and save some data in order to function properly:
 The bot does not share any data with third parties.
 
 ## Contact
-`BulzyKrown#9999` on [Discord](https://discord.gg/karu).
+`BulzyKrown#9999` on [Discord]([https://discord.gg/karu](https://discord.com/servers/karu-maid-season-410613670322634754)).
