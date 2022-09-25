@@ -9,7 +9,7 @@
 ## Comandos
 - Todos mis comandos funcionan mencionandome
 - Obligatorio `<>` / Opcional `[]`
-- Puedes usar `k-h comando` para obtener más información sobre cada comando.
+- Puedes usar `@karu h comando` para obtener más información sobre cada comando.
 - Lista de comandos **v0.7.12**
 
 ### Tipos de comando:
