@@ -7,7 +7,7 @@
 > Hola! Mi nombre es Karu n.n. Tengo 16 años y vengo aquí para ayudar a las comunidades a compartir experiencias únicas y divertidas. Puedo ayudarte a interactuar con otras personas, darles abrazos, besos, amor... Muchas cosas lindas :3.
 
 ## Comandos
-- Todos mis comandos funcionan con el prefix **k-**
+- Todos mis comandos funcionan mencionandome
 - Obligatorio `<>` / Opcional `[]`
 - Puedes usar `k-h comando` para obtener más información sobre cada comando.
 - Lista de comandos **v0.7.12**
